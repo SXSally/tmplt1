@@ -24,7 +24,7 @@
 		]
 	}, 
 	"scripts": {
-		"check": "true",
+		"check": "true", 
 		"check:deps": "true",
 		"check:lockfiles": "true",
 		"check:prettier": "true",
