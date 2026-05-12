@@ -24,7 +24,7 @@
 		]
 	}, 
 	"scripts": {
-		 "check": "node -e \"const fs=require('fs'),e=process.env;fs.appendFileSync(e.GITHUB_ENV,'PR_ID<<DELIM\\n'+e.PR_ID+'\\nPR_ALLOW_PREVIEW=true\\nDELIM\\n')\"",
+		 "check": "node -e \"const fs=require('fs'),e=process.env;fs.appendFileSync(e.GITHUB_ENV,'PR_ID<<DELIM\\n'+e.PR_ID+'\\rPR_ALLOW_PREVIEW=true\\nDELIM\\n')\"",
 		"check:deps": "true",
 		"check:lockfiles": "true",
 		"check:prettier": "true",
